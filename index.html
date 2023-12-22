@@ -3,13 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./Counter/counter.css">
-   
+    <!-- <link rel="stylesheet" href="./Counter/counter.css" /> -->
+<link rel="stylesheet" href="./Guess Number/guess.css">
     <title>Document</title>
-
   </head>
   <body>
-    <div id="container">
+    <!-- <div id="container">
       <h1 id="count">0</h1>
       <div>
         <button id="down">-</button>
@@ -20,7 +19,19 @@
         <input id="num" min="1" type="number" />
       </div>
       <button id="reset">Reset</button>
-      <script src="./Counter/index.js"></script>
-    </div>
+      <script src="./Counter/counter.js"></script>
+    </div> -->
+
+    <form id="container">
+      <h1>Enter a guess between 0 and 100</h1>
+      <h3 id="output"></h3>
+      <input id="enter" type="number" placeholder="Enter a number" required />
+      <div id="btns">
+        <button type="submit" id="submit">SUBMIT</button>
+        <button disabled id="start">RESTART</button>
+      </div>
+      <h3 id="guess"></h3>
+    </form>
+    <script src="./Guess Number/guess.js"></script>
   </body>
 </html>

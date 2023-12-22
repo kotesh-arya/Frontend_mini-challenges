@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    color: white;
+  }
+  
+  #container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /*   border:3px solid green; */
+    height: 300px;
+    /*   border: 2px solid red; */
+  }
+  #output {
+    /*   padding: 10px; */
+    /*   border: 2px solid red; */
+  }
+  input {
+    height: 40px;
+    font-size: 30px;
+    border-radius: 10px;
+  }
+  button {
+    height: 30px;
+    border-radius: 7px;
+  }
+  
