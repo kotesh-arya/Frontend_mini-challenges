@@ -1,0 +1,111 @@
+body {
+    /*   background-color: black; */
+    /*   color: white; */
+  }
+  
+  #container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /*   border: 3px solid green; */
+    height: 300px;
+    /*   width:300px; */
+    /*   border: 2px solid red; */
+  }
+  #upload-btn {
+    display: flex;
+    align-items: center;
+    /*   justify-content: space-between; */
+    flex-direction: column;
+    /*       border:3px solid red; */
+    height: 300px;
+    /*   width:100%; */
+  }
+  #output {
+    /*   padding: 10px; */
+    /*     border: 2px solid red; */
+  }
+  input {
+    height: 40px;
+    font-size: 30px;
+    border-radius: 10px;
+  }
+  button {
+    height: 30px;
+    border-radius: 7px;
+  }
+  #btns {
+    height: 200px;
+    width: 60%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn {
+    height: 130px;
+    cursor: pointer;
+    background: yellow;
+    disply: flex;
+    color: black;
+    /*   flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    border: 3px dashed blue;
+    padding: 25px;
+    width: 180px;
+  }
+  #files {
+    /*     visibility: hidden; */
+    /*    text-indent: -999em;
+          outline: none;
+          width: 100%;
+          height: 100%;
+          position: absolute; */
+  }
+  input[type="file"] {
+    /*   border: 2px solid red; */
+    width: 50%;
+    cursor: pointer;
+    text-indent: -6em;
+    font-size: 20px;
+    /*   outline: none; */
+    /*   width: 100%;*/
+    height: 100%;
+    /*   position: absolute; */
+    /*     border: 2px solid white; */
+    /*   bottom: 2rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*   text-align:right; */
+    right: 5rem;
+    /*   margin-left: 150px; */
+  }
+  img {
+    height: 50px;
+    width: 50px;
+    margin-left: 65px;
+    /*   margin-right: auto; */
+  
+    /*   border: 1px solid blue; */
+  }
+  p {
+    /*   border: 1px solid blue; */
+    margin-left: 25px;
+  }
+  #sample {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+    /*   width:700px; */
+    background: grey;
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
