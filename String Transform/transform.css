@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: white;
+  }
+  
+  #container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /*   border:3px solid green; */
+    /*   height: 300px; */
+    width: 100%;
+    border: 2px solid red;
+  }
+  input {
+    width: 90%;
+    height: 40px;
+    font-size: 25px;
+  }
+  #cases-container {
+    width: 90%;
+  }
+ 
+  li {
+    list-style-type: none;
+    border: 1px solid green;
+    margin-top: 40px;
+    /*     width:90%; */
+  }
+  .label {
+    font-size: 20px;
+    position: absolute;
+    bottom: 10px;
+    background-color: black;
+  }
+  .case-type {
+    position: relative;
+    border: 1px solid red;
+    height: 40px;
+    /*   width: 90%; */
+  }
+  
