@@ -47,7 +47,7 @@ body {
     height: 130px;
     cursor: pointer;
     background: yellow;
-    disply: flex;
+    display: flex;
     color: black;
     /*   flex-direction: column; */
     align-items: center;
