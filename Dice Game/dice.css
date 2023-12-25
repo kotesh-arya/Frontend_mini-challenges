@@ -1,0 +1,62 @@
+.conatiner {
+  background-color: grey;
+  height: 100vh;
+}
+
+.board {
+  background-color: blue;
+  height: 500px;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.dice-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  width: 60%;
+}
+.dice1 {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.dice2 {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.disk {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  margin: 7px;
+}
+#play {
+  background-color: orange;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100px;
+  cursor: pointer;
+}
+#result {
+  align-self: center;
+}
